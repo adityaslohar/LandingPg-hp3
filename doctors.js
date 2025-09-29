@@ -10,7 +10,7 @@ const doctorsBySpecialty = {
       description:
         "Dr. Y.K. Mishra is a distinguished Cardiac Surgeon, recognised as a pioneer in minimally invasive cardiac surgery with over four decades of experience improving heart health. He has successfully performed over 19,000 open-heart and robotic surgeries.",
       specialty: "Cardiology",
-      image: "/images/Cardiac Surgeon-1.svg",
+      image: "images/Cardiac Surgeon-1.svg",
     },
     {
       name: "Dr. T S Kler",
@@ -21,7 +21,7 @@ const doctorsBySpecialty = {
       description:
         "Dr. T.S. Kler is a pioneer in electrophysiology with 48+ years of experience and 35,000+ angioplasties completed.",
       specialty: "Cardiology",
-      image: "/images/Cardiac Surgeon-2.svg",
+      image: "images/Cardiac Surgeon-2.svg",
     },
     {
       name: "Dr. Ajay Kaul",
@@ -32,7 +32,7 @@ const doctorsBySpecialty = {
       description:
         "Recognized among the top cardiac surgeons with 38+ years of experience. Over 20,000 cardiac surgeries performed.",
       specialty: "Cardiology",
-      image: "/images/Cardiac Surgeon-3.svg",
+      image: "images/Cardiac Surgeon-3.svg",
     },
     {
       name: "Dr. Naresh Trehan",
@@ -43,7 +43,7 @@ const doctorsBySpecialty = {
       description:
         "India’s distinguished Cardiothoracic Surgeon with 56+ years and 48,000+ surgeries successfully completed.",
       specialty: "Cardiology",
-      image: "/images/Cardiac Surgeon-4.svg",
+      image: "images/Cardiac Surgeon-4.svg",
     },
     {
       name: "Dr. Z S Meharwal",
@@ -54,7 +54,7 @@ const doctorsBySpecialty = {
       description:
         "Over 42 years of experience, 30,000+ cardiac surgeries. Expert in coronary artery bypass.",
       specialty: "Cardiology",
-      image: "/images/Cardiac Surgeon-5.svg",
+      image: "images/Cardiac Surgeon-5.svg",
     },
   ],
 
