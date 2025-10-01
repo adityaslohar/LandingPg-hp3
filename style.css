@@ -2067,10 +2067,10 @@ ease;
 
 
 
-/* Hover Modal Box */
+/* Hover Modal Box  C:\My website\ld-page\LandingPg-hp3\style.css*/
 .specialty-hover-box {
   position: absolute;
-  top: 115%; /* appear just below icon */
+  top: 102%; /* appear just below icon */
   left: 50%;
   transform: translateX(-50%);
   background: #f8fcff;

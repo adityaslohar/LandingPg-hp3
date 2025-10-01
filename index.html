@@ -136,8 +136,8 @@
 
   <!-- Hidden hover modal -->
   <div class="specialty-hover-box shadow" id="oncologyHoverBox">
-    <button class="btn btn-hover w-100">Best Cancer Doctors in India</button>
-    <button class="btn btn-hover w-100">Best Cancer Hospital in India</button>
+    <a class="btn btn-hover w-100" href="doctors.html">Best Cancer Doctors in India</a>
+    <a class="btn btn-hover w-100" href="hospital.html">Best Cancer Hospital in India</a>
   </div>
 </div>
 
@@ -221,10 +221,10 @@
 
             <!-- Action Buttons -->
             <div class="action-buttons d-flex justify-content-center">
-                <button class=" btn-assistance-sec-2 me-3">
+                <a href="#contact" class=" btn-assistance-sec-2 me-3">
                     Need Assistance <i class="fas fa-arrow-right ms-2"></i>
-                </button>
-                <button class=" btn-chat">
+                </a>
+                <button class=" btn-chat" onclick="openWhatsApp('7744998493')">
                    <img src="images/Whatsapp.svg" style="height: 80%;" alt=""> Chat
                 </button>
             </div>
@@ -339,7 +339,7 @@
                 <a href="hospital.html" class=" action-buttons-see-more me-3">
   See more <i class="fas fa-arrow-right ms-2"></i></a>
 
-                <button class="chat-button">
+                <button class="chat-button" onclick="openWhatsApp('7744998493')">
                    <img src="images/Whatsapp.svg" style="height: 80%;"  alt=""> Chat
                 </button>
             </div>
@@ -407,10 +407,10 @@
             
             <!-- Get Started Button -->
             <div class="get-started-btn">
-                <button type="button" class="btn btn-primary btn-get-started">
+                <a href="#" class="btn btn-primary btn-get-started">
                     Get Started
                     <i class="fas fa-arrow-right"></i>
-                </button>
+                </a>
             </div>
         </div>
     </section>
@@ -530,7 +530,7 @@
             <!-- Chat Button -->
             <div class="row">
                 <div class="col-12 text-center">
-                    <button class="btn chat-button">
+                    <button class="btn chat-button" onclick="openWhatsApp('7744998493')">
                         <i class="fab fa-whatsapp me-2"></i>Chat
                     </button>
                 </div>
@@ -1067,16 +1067,16 @@
                         </h1>
                         
                         <h2 class="appointment-subtitle">
-                            Complete the form below and meet our experts
+                            Complete the form below and meet our experts    
                         </h2>
                         
                         <p class="appointment-description">
                             During initial consultation, we will answer your all questions and offer you different options according to your budget.
                         </p>
                         
-                        <button type="button" class="btn btn-primary contact-btn">
+                        <a href="#contact" class="btn btn-primary contact-btn">
                             Contact Us
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -1181,11 +1181,11 @@
                         <i class="fas fa-home social-icon"></i>
                         Home
                     </a>
-                    <a href="#hospitals" class="nav-link">
+                    <a href="hospital.html" class="nav-link">
                         <i class="fas fa-hospital social-icon"></i>
                         Hospitals
                     </a>
-                    <a href="#doctors" class="nav-link">
+                    <a href="doctors.html" class="nav-link">
                         <i class="fas fa-user-md social-icon"></i>
                         Doctors
                     </a>
@@ -1262,8 +1262,8 @@
                         <p><strong>Experience:</strong> <span id="modalExperience"></span></p>
                         <p id="modalDescription"></p>
                         <div class="action-buttons">
-                       <button class="btn-appointment">Book Appointment →</button>
-                       <button class="btn-whatsapp">Whatsapp Us</button>
+                       <a href="#contact" class="btn-appointment">Book Appointment →</a>
+                       <button class="btn-whatsapp" onclick="openWhatsApp('7744998493')">Whatsapp Us</button>
                        </div>
                     </div>
                 </div>

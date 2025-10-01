@@ -1446,10 +1446,10 @@ function createDoctorCard(doctor) {
 
         <!-- CTA -->
         <div class="hospital-actions">
-              <button class="btn btn-book">Book Appointment</button>
-              <button class="btn btn-whatsapp">
+              <a href="index.html" class="btn btn-book">Book Appointment</a>
+              <a class="btn btn-whatsapp" onclick="openWhatsApp('7744998493')">
                 <i class="bi bi-whatsapp"></i> WhatsApp Us
-              </button>
+              </a>
         </div>
       </div>
     </div>

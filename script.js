@@ -28,6 +28,13 @@
   });
 
 
+    function openWhatsApp(number) {
+    // Format the WhatsApp URL
+    const url = `https://wa.me/${number}`;
+
+    // Open in a new tab
+    window.open(url, "_blank");
+  }
 
     // for success message
 
